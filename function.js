@@ -1,5 +1,15 @@
-function callFunction(){
-    console.log('hi hello')
+// function callFunction(){
+
+// }
+// callFunction()
+// callFunction()
+
+function addNumber(a,b){
+    let c=a+b;
+    let d=a*b;
+    console.log(c,d)
+    let e=a-b;
+    return e
 }
-callFunction()
-callFunction()
+let multipication= addNumber(20,22)
+console.log('Multiplication result',multipication)
