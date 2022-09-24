@@ -1,4 +1,3 @@
-let number=-54;
-let result=Math.abs(number)
-console.log(result)
-
+let number=5.455;
+let rounded=Math.round(number)
+console.log(rounded)
